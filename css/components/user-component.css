@@ -18,25 +18,31 @@
   margin-top: 5px;
   color: rgba(0, 0, 0, 0.5);
   font-size: 17px;
+  margin-left: 15px;
 }
   
-  .user-component__avatar {
-    width: 65px;
-    height: 65px;
-    border-radius: 20px;
-  }
+.user-component__avatar {
+  width: 65px;
+  height: 65px;
+  border-radius: 20px;
+}
 
-  .user-component__avatar--xl {
-    width: 75px;
-    height: 75px;
-  }
+.user-component__avatar--xl {
+  width: 75px;
+  height: 75px;
+}
 
-  .user-component__avatar--sm {
-    width: 55px;
-    height: 55px;
-    border-radius: 15px;
-  }
+.user-component__avatar--sm {
+  width: 55px;
+  height: 55px;
+  border-radius: 15px;
+}
 
-  .user-component__column:last-child {
-    color: rgba(0, 0, 0, 0.5);
-  }
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.user-component__alarm {
+  margin-left: 15px;
+  margin-top: 8px;
+}
