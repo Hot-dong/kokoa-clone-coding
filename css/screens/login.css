@@ -8,7 +8,7 @@ body {
 }
 
 .welcome-header {
-  margin: 90px 0px;
+  /* margin: 90px 0px; */
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -19,6 +19,7 @@ body {
   font-size: 25px;
   margin-bottom: 40px;
   font-weight: 500;
+  margin-top: 80px;
 }
 
 .welcome-header__text {
