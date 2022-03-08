@@ -1,0 +1,24 @@
+.badge {
+  background-color: tomato;
+  width: 23px;
+  height: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  font-weight: 600;
+  left: 20px;
+  bottom: 15px;
+}
+
+.header__icons--badge {
+  display: flex;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: tomato;
+  position: absolute;
+  right: 20px;
+  top: 50px;
+}
