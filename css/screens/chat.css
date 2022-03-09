@@ -2,7 +2,7 @@ body {
 }
 #chat-screen {
   background-color: #abc1d1;
-  height: 1100vh;
+  height: 500vh;
 }
 
 #chat-screen .alt-header,
@@ -19,11 +19,23 @@ body {
   z-index: 1;
 }
 
+@keyframes fadeIn {
+  to {
+    transform: translateY(-30px);
+    opacity: 1;
+  }
+  from {
+    transform: none;
+    opacity: 0;
+  }
+}
+
 .main-chat {
-  margin-top: 110px;
+  margin-top: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  animation: fadeIn 0.8s forwards;
 }
 
 #chat-screen .status-bar {
@@ -145,7 +157,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 
 
 
